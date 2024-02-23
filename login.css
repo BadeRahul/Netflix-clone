@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap');
+/* font-family: 'Poppins', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&family=Roboto:wght@400;500;700;900&display=swap');
+/* font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif; */
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    background-color: #333;
+    
+
+}
+nav{
+    position: fixed;
+    z-index: 1;
+    padding: 25px 50px;
+
+}
+nav a img{
+    width: 180px;
+}
+body::before{
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    /* background:linear-gradient(180deg,rgba(0,0,0,.5) 0,transparent), url(assests/jpg/banner/loginbackground.jpg); */
+    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(assests/jpg/banner/loginbackground.jpg);
+    height: 150vh;
+}
+
+.wrapper{
+    margin-top: 10%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 430px;
+    padding: 60px;
+    background-color:rgba(0, 0, 0, 0.75);
+    border-radius: 4px;
+    transform: translate(-50%,-50%);
+    background-position: center;
+}
+.wrapper h1{
+    color: #fff;
+    font-size: 2rem;
+    margin: 2% 1% 0%;
+}
+.wrapper form{
+    margin: 25px 0px 65px;
+}
+.wrapper input{
+    height: 100%;
+    width: 100%;
+    background-color:#333;
+    outline:none;
+    border: none;
+    color:  #b3b3b3;
+    padding: 15px;
+    border-radius: 5px;
+    font-size: 1rem;
+    margin: 2% 1%;
+}
+.wrapper input::placeholder{
+    color:  #b3b3b3;
+    left: 20px;
+    top: 40px;
+}
+.wrapper form button{
+    background-color: red;
+    width: 100%;
+    color:  #fff;
+    border-radius: 5px;
+    padding: 15px;
+    margin: 8% 1% 1%;
+    border: none;
+    font-size: 1rem;
+    cursor: pointer;
+    font-weight: 500;
+    outline: none;
+}
+.wrapper form button:hover{
+    background-color: rgb(244, 29, 29);
+}
+
+.wrapper form .forms-help{
+    display: flex;
+    justify-content: space-between;
+    color:  #b3b3b3;
+    margin: 3% 0%;
+    width: 100%;
+    
+    
+}
+.wrapper form .forms-help a{
+    text-decoration: none;
+    color:  #b3b3b3;
+    font-size: .8rem;
+    margin-top: 1%;
+}
+.wrapper form .forms-help .formshelp{
+    display: flex;
+    color:  #b3b3b3;
+    font-size: .8rem;
+    padding-left: 1px;
+    width: 50%;
+}
+.wrapper form .forms-help .formshelp label{
+    margin-top: 2%;
+}
+.wrapper form .forms-help input[type="checkbox"]{
+    height: 15px;
+    width: 15px;
+    background-color: #333;
+    border-radius: 4px;
+}
+.wrapper .formfooter{
+    margin: 25% 0%;
+    color: #b3b3b3;
+}
+.wrapper .formfooter .r a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: 500;
+   
+}
+.wrapper .formfooter .r{
+    margin-bottom: 10%;
+}
+.wrapper .formfooter .s{
+    font-size: .9rem;
+}
+.wrapper .formfooter .s a{
+    text-decoration: none;
+    font-size: .9rem;
+    color: rgb(18, 62, 175);
+}
+.wrapper .formfooter a:hover{
+    text-decoration: underline;
+}

@@ -1,0 +1,364 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap');
+/* font-family: 'Poppins', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&family=Roboto:wght@400;500;700;900&display=swap');
+/* font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif; */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    background-color: #1a1919;
+}
+
+
+/* Banner */
+.banner{
+    background:linear-gradient(90deg,#181818 10%,hsla(0,0%,9%,.98) 20%,hsla(0,0%,9%,.97) 25%,hsla(0,0%,9%,.95) 35%,hsla(0,0%,9%,.94) 40%,hsla(0,0%,9%,.92) 45%,hsla(0,0%,9%,.9) 50%,hsla(0,0%,9%,.87) 55%,hsla(0,0%,9%,.82) 60%,hsla(0,0%,9%,.75) 65%,hsla(0,0%,9%,.63) 70%,hsla(0,0%,9%,.45) 75%,hsla(0,0%,9%,.27) 80%,hsla(0,0%,9%,.15) 85%,hsla(0,0%,9%,.08) 90%,hsla(0,0%,9%,.03) 95%,hsla(0,0%,9%,0)),url(../assests/jpg/banner/currycynade.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 100%;
+    height: 110vh;
+}
+
+.banner .banner-content{
+    padding: 15% 6%;
+}
+.banner .banner-content .banner-title .logo{
+    height: 100px;
+    width: 450px;
+}
+.banner .banner-content .banner-title h1{
+    text-transform: capitalize;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: #ffffff;
+    padding: 2% 0%;
+    /* font-family: Arial, Helvetica, sans-serif; */
+    font-family: 'Poppins', sans-serif;
+}
+.banner .banner-content .banner-title h1 span{
+    text-transform: capitalize;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: #f9f6f6;
+    font-family: 'Poppins', sans-serif;
+    
+}
+.banner .banner-content .banner-title p{
+    font-weight: 400;
+    font-size: 0.9rem;
+    /* font-family: 'Poppins', sans-serif; */
+    color: #f9f6f6;
+    max-width: 450px;
+    padding: 1% 0%;
+
+}
+.banner .banner-content .banner-buttons .play{
+    background-color: #ff0303;
+    text-transform: capitalize;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    padding: 1% 2%;
+    font-size: 1.2rem;
+    margin-right: 10px;
+    transition: 0.5s;
+
+}
+.banner .banner-content .banner-buttons .play:hover{
+    background-color:#fff;
+    color: #111;
+}
+.banner .banner-content .banner-buttons .info{
+    background-color: #fff;
+    text-transform: capitalize;
+    color: #111;
+    border: none;
+    border-radius: 6px;
+    padding: 1% 2%;
+    font-size: 1.2rem;
+    transition: 0.5s;
+
+}
+.banner .banner-content .banner-buttons .info:hover{
+    background-color:#ff0303;
+    color: #fff;
+}
+.banner .bannerfooter .bntg{
+    display: flex;
+    text-align: center;
+    padding: 2px;
+
+}
+.banner .bannerfooter .bntg img{
+    max-width: 100%;
+    padding-top: 1px;
+    height: 90%;
+}
+.banner .bannerfooter .bntg p{
+    max-width: 100%;
+    padding-top: 18px;
+    padding-left: 3px;
+    height: 90%;
+    color: #f9f6f6;
+    font-weight: 600;
+}
+.bannerfooter .bnbtn .bnftrbtn{
+    background-color: #fd0606;
+    padding: 10px 30px;
+    margin-top: 10px;
+    border:2px solid #666;
+    border-radius: 2px;
+    color: #f9f6f6;
+
+}
+.bannerfooter{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    z-index: 2;
+    margin-top: 7%;
+    padding: 0px 20px;
+    background:linear-gradient(90deg,#333 5%,#181818 95%);
+    box-shadow: 8px 5px 16px 0 rgba(0,0,0,.37);
+    margin-bottom: 32px;
+    height: 9vh;
+    
+}
+/* Navbar */ 
+nav .logo{
+    width: 120px;
+    object-fit: contain;
+    margin: 10px 40px;
+    padding: 0px 0px 5px 3px;
+}
+nav .profile1{
+    display: flex;
+}
+nav .profile1 .para{
+    color: #f9f6f6;
+    font-weight: 400;
+    text-transform: uppercase;
+    /* font-family: Arial, Helvetica, sans-serif; */
+    font-size: 0.8rem;
+    margin: 22px 8px;
+}
+nav .profile1 .navbtn{
+    font-weight: 400;
+    font-size: 0.8rem;
+    margin: 15px 5px;
+    /* padding: 7px 18px 7px 18px; */
+    padding: 9px 20px;
+    /* font-family: Arial, Helvetica, sans-serif; */
+    border: none;
+    border-radius: 2px;
+    color: #ffffff;
+    background-image: linear-gradient(180deg,#e50914,#db0510);
+    box-shadow: 0 1px 0 rgba(0,0,0,.45);
+    cursor: pointer;
+}
+nav .profile1 .navbtnsign{
+    background-color: #000000;
+    font-weight: 400;
+    /* font-family: Arial, Helvetica, sans-serif; */
+    font-size: 0.8rem;
+    margin: 15px 40px 15px 5px;
+    /* padding:7px 18px 7px 18px; */
+    padding: 9px 20px 6px ;
+    border: 1px solid #ffffff;
+    border-radius: 3px;
+    color: #ffffff;
+    cursor: pointer;
+}
+nav .profile1 .navbtnsign:hover{
+    background-color: #333;
+}
+nav .profile1 .profile{
+    width: 50px;
+    /* object-fit: contain; */
+    margin: 10px 20px;
+    border-radius:100px;
+    border: 2px solid rgb(255, 255, 255);
+}
+nav{
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    z-index: 1;
+    background-color: #000000;
+    height: 58px;
+}
+/* content */
+.maincontent .content1 .h1{
+    color: #f9f6f6;
+    width: 100%;
+    font-weight: 800;
+    font-size: 3.5rem;
+    padding-top: 10%;
+    letter-spacing: 1px;
+    font-family: 'Poppins', sans-serif;
+
+}
+.maincontent .content1 p{
+    color: #f9f6f6;
+    padding: 10px 0px 20px 32px;
+    font-size: 1.2rem;
+    max-width: 40%;
+    letter-spacing: 0.5px;
+
+}
+.content1{
+    text-align: center;
+    color: #f9f6f6;
+    margin: 3% 6%;
+    padding: 5% 0% 3%;
+    border-top: #666 solid 1px;
+    border-bottom: #666 solid 1px;
+    max-width: 1600px;
+    padding: 25px 5vw;
+
+}
+.content1 .p1{
+    max-width: 75%;
+    padding-left: 25%;
+    /* font-family: Arial, Helvetica, sans-serif; */
+    font-size: 1.3rem;
+
+}
+.content1 .p2{
+    max-width: 75%;
+    padding-left: 25%;
+    padding-top: 1%;
+    color: #666;
+    /* font-family: Arial, Helvetica, sans-serif; */
+    font-size:1.0rem;
+
+}
+.videos{
+    color: #f9f6f6;
+    margin: 6%;
+}
+.videos .videocontent img{
+    padding:20px 0px 0px;
+    width: 50%;
+    /* font-family: Arial, Helvetica, sans-serif; */
+}
+.videos .videocontent p{
+    padding:10px 0px;
+    font-size: 1.1rem;
+    /* font-family: Arial, Helvetica, sans-serif; */
+}
+/* videos & iframes */
+.iframes{
+    padding: 1% 6%;
+}
+.iframes h3{
+    color: #bbb0b0;
+    padding-bottom: 1%;
+    font-size: 1.8rem;
+}
+.iframes .iframes1{
+    display: flex;
+    max-width: 100%;
+    
+}
+.iframes .iframes1 iframe{
+    margin: 10px 15px;
+    transition: transform 420ms;
+}
+.iframes .iframes1 iframe:hover{
+    transform: scale(1.09);
+}
+.moredetails h3{
+    font-size: 1.5rem;
+    font-weight: 400;
+    /* font-family: Arial, Helvetica, sans-serif; */
+    margin-left:6%;
+    margin-bottom: 1%;
+    color: #f9f6f6;
+}
+.moredetails .row{
+    display: flex;
+    color: #f9f6f6;
+    margin-left: 6%;
+    margin-bottom: 2%;
+    /* font-family: Arial, Helvetica, sans-serif; */
+    max-width: 200%;
+}
+.moredetails .row .col{
+    width: 200%;
+    margin-right: 0%;
+    display: block;
+   
+
+}
+.moredetails .row .pcontent{
+    color: #666;
+    font-size: 1.1rem;
+    margin-bottom: 2%;
+    max-width: 100%;
+}
+.moredetails .row .pcontent1{
+    letter-spacing:0.5px;
+    line-height: 20px;
+}
+/* footer */
+
+footer{
+    padding: 50px 14% 10px;
+    border-top: 5px solid #333;
+    color: #666;
+}
+footer h3{
+    font-size: 1.3rem;
+    font-weight: 400;
+    /* font-family: Arial, Helvetica, sans-serif; */
+    margin-bottom: 20px;
+}
+footer .col{
+    margin: 10px 50px;
+}
+footer .row{
+    display: flex;
+    align-items: flex-start;
+    padding: 10px 0px;
+}
+footer .col a{
+    text-decoration: none;
+    color: #666;
+    font-size: 1rem;
+    display: block;
+    padding: 0px 0px 10px;
+}
+footer select{
+    /* font-family: Arial, Helvetica, sans-serif; */
+    color: #ffff;
+    padding: 15px 20px;
+    margin: 5px;
+    background-color: #111;
+    border: 1px solid #666;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+footer  .ftrbtn{
+    background: transparent;
+    border: 3px solid #666;
+    font-size: 1rem;
+    color: #666;
+    border-radius:5px ;
+    padding: 3px 4px;
+}
+footer .ftrhd{
+    color: #666;
+    margin: 10px 0px;
+    font-size: 1rem;
+}
+footer i{
+    padding: 4px ;
+}
